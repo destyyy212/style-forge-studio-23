@@ -7,6 +7,14 @@ export const silhouetteOptions = [
   { id: 'empire', name: 'Empire', description: 'High waist cut' },
   { id: 'sheath', name: 'Sheath', description: 'Narrow throughout' },
   { id: 'flared', name: 'Flared', description: 'Wide bottom flare' },
+  { id: 'mermaid', name: 'Mermaid', description: 'Fitted with flare at knee' },
+  { id: 'trumpet', name: 'Trumpet', description: 'Flares mid-thigh' },
+  { id: 'ballgown', name: 'Ball Gown', description: 'Full dramatic skirt' },
+  { id: 'princess', name: 'Princess', description: 'Vertical seam lines' },
+  { id: 'shift', name: 'Shift', description: 'Loose boxy fit' },
+  { id: 'wrap', name: 'Wrap', description: 'Overlapping front' },
+  { id: 'peplum', name: 'Peplum', description: 'Flared waist ruffle' },
+  { id: 'tent', name: 'Tent', description: 'Wide A-frame' },
 ];
 
 export const necklineOptions = [
