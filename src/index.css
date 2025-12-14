@@ -120,7 +120,7 @@
 
 @layer components {
   .option-card {
-    @apply border-2 border-option-border rounded-lg p-3 cursor-pointer transition-all duration-200 bg-option-bg hover:bg-option-bg-hover hover:border-primary/50;
+    @apply border-2 border-border rounded-lg p-3 cursor-pointer transition-all duration-200 bg-card hover:bg-accent hover:border-primary/50;
   }
   
   .option-card-active {
@@ -128,7 +128,7 @@
   }
   
   .sidebar-item {
-    @apply flex flex-col items-center gap-1.5 py-3 px-2 cursor-pointer transition-all duration-200 text-sidebar-text hover:text-primary;
+    @apply flex flex-col items-center gap-1.5 py-3 px-2 cursor-pointer transition-all duration-200 text-muted-foreground hover:text-primary;
   }
   
   .sidebar-item-active {
